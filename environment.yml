@@ -11,7 +11,7 @@ dependencies:
   - scipy=1.11.1 # https://beta.mamba.pm/channels/emscripten-forge/packages/scipy
   # BRIGHTWAY DEPENDENCIES (NOT PURE PYTHON)
   - peewee # required by Brightway, loaded from emscripten-forge
-  - lxml # required by Brightway, loaded from emscripten-forge
+  - lxml=4.9.3 # https://beta.mamba.pm/channels/emscripten-forge/packages/lxml#info # required by Brightway, loaded from emscripten-forge
 #  - bw2io=0.9.dev21 # https://anaconda.org/conda-forge/bw2io/files # loaded from conda-forge under the `dev` label
 #  - bw2data=4.0.dev25 # https://anaconda.org/conda-forge/bw2data/files # loaded from conda-forge under the `dev` label
 #  - bw2calc=2.0.dev14 # https://anaconda.org/conda-forge/bw2calc/files # loaded from emscripten-forge (cf. https://github.com/conda-forge/bw2calc-feedstock/pull/14)
